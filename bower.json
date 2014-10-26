@@ -1,0 +1,24 @@
+{
+  "name": "waitMe",
+  "version": "10.10.14",
+  "homepage": "https://github.com/phpnetanel/waitMe",
+  "authors": [
+    "vadimsva"
+  ],
+  "description": "waitMe",
+  "main": "dist/waitMe.min.js",
+  "keywords": [
+    "jquery"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "latest"
+  }
+}
