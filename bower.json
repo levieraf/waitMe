@@ -6,7 +6,7 @@
     "vadimsva"
   ],
   "description": "wait me jquery pack for loading animation",
-  "main": "dist/waitMe.min.js",
+  "main": ["dist/waitMe.min.js", "dist/waitMe.min.css"],
   "keywords": [
     "jquery"
   ],
