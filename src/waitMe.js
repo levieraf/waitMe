@@ -142,7 +142,7 @@ Github: https://github.com/vadimsva/waitMe
 						if (elem.find('> .' + elemClass)) {
 							elem.find('> .' + elemClass).remove();
 						}
-						waitMeDivObj = $('<div class="' + elemClass + '_content"></div>');
+						var waitMeDivObj = $('<div class="' + elemClass + '_content"></div>');
 						waitMeDivObj.append(effectObj, waitMe_text);
 						waitMeObj.append(waitMeDivObj);
 						if (elem[0].tagName == 'HTML') {
